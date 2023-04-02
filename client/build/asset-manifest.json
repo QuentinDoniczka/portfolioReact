@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fbfcd994.css",
+    "main.js": "/static/js/main.8cf8eddd.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/portfolio.png": "/static/media/portfolio.5c5c3779f3da740aa9db.png",
+    "static/media/siteRecette.png": "/static/media/siteRecette.d69ec90f4f16b2e1aa06.png",
+    "static/media/sqliteNode.png": "/static/media/sqliteNode.cfc159bd4ddfe2fcb1f3.png",
+    "index.html": "/index.html",
+    "main.fbfcd994.css.map": "/static/css/main.fbfcd994.css.map",
+    "main.8cf8eddd.js.map": "/static/js/main.8cf8eddd.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbfcd994.css",
+    "static/js/main.8cf8eddd.js"
+  ]
+}
