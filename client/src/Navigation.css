@@ -1,0 +1,19 @@
+.nav-link:hover .contact-text {
+  display: inline;
+  margin-left: 0.5rem;
+}
+
+.contact-text {
+  display: none;
+}
+.navbar-brand:hover .text {
+  display: inline;
+  margin-left: 0.5rem;
+}
+.text {
+  display: none;
+}
+.custom-nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+}
