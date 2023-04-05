@@ -20,7 +20,7 @@ function App() {
           <Route exact path="/Biography" component={Biography} />
           <Route exact path="/MyCv" component={MyCv} />
           <Route exact path="/Projet" render={() => <Projet projects={projects} />} />
-          <Route path="/Projet/:id" render={(props) => <ProjectDetails {...props} projects={projects} />} />
+          <Route exact path="/Projet/:id" render={(props) => <ProjectDetails {...props} projects={projects} />} />
         </Switch>
         <Footer />
       </Router>

@@ -1,10 +1,10 @@
 import React from 'react';
+import cv from '../assets/LettreDeMotivation.pdf';
 
 const Biography = () => {
   return (
-    <div>
-      <h1>Bienvenue sur ma nouvelle page</h1>
-      {/* Ajoutez ici le contenu de votre page */}
+    <div className="MyCv cv-container">
+      <iframe src={cv} width="100%" height="600px" title="mon_cv.pdf" />
     </div>
   );
 };

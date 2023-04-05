@@ -15,7 +15,7 @@ export const CardProject = ({ project }) => {
 
   return (
     <Col className='d-flex justify-content-center text-center'>
-      <Card className="card">
+      <Card className="">
       <Link to={`/Projet/${project.id}`} className="card-project-link">
           <Card.Img className="p-2 myImg" variant="top" src={getImage()} />
           <Card.Body className="p-0 ms-2 text-start">

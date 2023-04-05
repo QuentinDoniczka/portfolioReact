@@ -1,11 +1,23 @@
 import React from 'react';
+import { Container, Row } from 'react-bootstrap';
+import CardDetaille from '../CardDetaille';
 
-const Projet = () => {
+const Projects = ({ projects }) => {
+  const renderProjects = () => {
+    return projects.map((project) => (
+      <CardDetaille key={project.id} project={project} />
+    ));
+  };
+
   return (
-    <div>
-      <h1>Projet</h1>
-    </div>
+    <Container className="my-4">
+      <div className="projects-container"> 
+        <Row className="g-4">
+          {renderProjects()}
+        </Row>
+      </div>
+    </Container>
   );
 };
 
-export default Projet;
+export default Projects;
