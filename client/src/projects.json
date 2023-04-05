@@ -1,17 +1,37 @@
 [
     {
+        "id": 3,
         "title": "React heroku react-bootstrap",
         "image": "portfolio.png",
-        "description": "Portfolio de présentation."
+        "description": "Portfolio de présentation.",
+        "longDescription": "Ce portfolio a été réalisé en React.js avec le framework react-bootstrap. Il est hébergé sur Heroku.",
+        "languages": [
+            "JavaScript",
+            "React",
+            "Bootstrap"
+        ]
     },
     {
+        "id": 2,
         "title": "React nodejs heroku",
         "image": "sqliteNode.png",
-        "description": "Interation BDD front/back"
+        "description": "Interation BDD front/back",
+        "longDescription": "Ce projet React est un exemple de l'utilisation de props pour passer des données d'un composant parent à un composant enfant. Le composant parent, FilterableProductTable, reçoit les données de produits depuis une API et les stocke dans son état interne. Il utilise également des méthodes pour gérer les changements de texte de filtre et de stockage en fonction de l'état des cases à cocher. Le composant enfant SearchBar utilise des props pour recevoir les données de filtre et de stockage, ainsi que des méthodes pour transmettre les changements à son composant parent. Il affiche un formulaire avec une entrée de texte pour filtrer les produits et une case à cocher pour n'afficher que les produits en stock. Le composant enfant ProductTable utilise également des props pour recevoir les données de produits et de filtre, ainsi que la valeur de stockage. Il filtre les produits en fonction de l'état de stockage et du texte de filtre et génère des rangées de table HTML pour chaque produit qui correspond aux critères de filtre. Ce projet est un bon exemple de l'utilisation de props pour communiquer des données entre les composants React. Il démontre également l'utilisation de méthodes pour gérer les interactions utilisateur et mettre à jour l'état du composant.",
+        "languages": [
+            "JavaScript",
+            "React",
+            "Node.js"
+        ]
     },
     {
+        "id": 1,
         "title": "javacript vanilla PHP",
         "image": "siteRecette.png",
-        "description": "Creation et gestion de recette"
+        "description": "Creation et gestion de recette",
+        "longDescription": "Ce projet a été réalisé en JavaScript vanilla et PHP. Il est hébergé sur OVH.",
+        "languages": [
+            "JavaScript",
+            "PHP"
+        ]
     }
 ]

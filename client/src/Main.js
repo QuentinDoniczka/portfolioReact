@@ -1,5 +1,4 @@
 import React from 'react';
-import './Main.css';
 import List from './List';
 import { Col, Container } from 'react-bootstrap';
 import { BlockProjects } from './BlockProjects';
@@ -7,7 +6,7 @@ import { BlockProjects } from './BlockProjects';
 const Main = ({ projects }) => {
     const frontendItems = ['JavaScript', 'Reactjs', 'Bootstrap'];
     const backendItems = ['Node.js', 'Mysql, sqlite', 'PHP'];
-    const developerItems = ['C#, C', 'Java', 'Python'];
+    const developerItems = ['C#, .NET', 'Java', 'Python'];
     return (
         <main>
             <Container fluid className="d-flex align-items-center container-full-width shadow-box haut">
