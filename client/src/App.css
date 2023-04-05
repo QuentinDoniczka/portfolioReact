@@ -149,3 +149,20 @@ code {
   margin-top: auto;
   padding: 1rem 0;
 }
+/* MyCv.css */
+.cv-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
