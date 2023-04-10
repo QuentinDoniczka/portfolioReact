@@ -11,7 +11,7 @@ const Projects = ({ projects }) => {
 
   return (
     <Container className="my-4">
-      <div className="projects-container"> 
+      <div className="projet-container"> 
         <Row className="g-4">
           {renderProjects()}
         </Row>

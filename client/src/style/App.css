@@ -1,3 +1,9 @@
+/* positionne la scroll bar en absolut, quand elle doit apparaitre */
+::-webkit-scrollbar {
+  width: 0.0rem;
+  height: 0.0rem;
+}
+
 .App {
   text-align: center;
   display: flex;
@@ -20,6 +26,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+nav{
+  height: 6.5vh;
 }
 .haut {
   flex-grow: 1;
@@ -170,5 +179,39 @@ iframe {
 .cardDetaille:hover{
   transform: scale(1.00);
   transition: transform 0.0s;
-  background-color: transparent;
+  
+}
+.cardDetaille a:hover {
+  color: #333;
+}
+.cardDetaille .card-subtitle {
+  font-size: 1.25rem !important;
+}
+
+.cardDetaille .card-text {
+  font-size: .875rem;
+}
+.bio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+.bio h3{
+  font-size: 2rem;
+  font-weight: bold;
+  /* pas lato and not open*/
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  letter-spacing: 1px;
+  /* margin top */
+  margin-top: 2rem;
+}
+.bio p{
+  text-align: justify
+}
+.projet-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
