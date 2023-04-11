@@ -22,14 +22,17 @@ const ProjectDetails = ({ projects }) => {
 
   return (
     <Container className="project-details-container">
-      <Container className="project-details-font">
         <h1 className='text-center'>{project.title}</h1>
-        <div className="long-description">{renderLongDescription()}</div>
+      <Container className="project-details-font">
+        <div className="mx-auto">
+          <p>
+            {renderLongDescription()}
+          </p>
+        </div>
       </Container>
       <Container className="d-flex justify-content-center align-items-center project-links gap-5 p-5">
           <Button href={project.gitUrl} target="_blank">GitHub</Button>
           <Button href={project.projectSiteUrl} target="_blank">Site du Projet</Button>
-          <Button href={project.demoVideoUrl} target="_blank" disabled={!project.demoVideoUrl}>Vidéo Démo</Button>
         </Container>
     </Container>
 

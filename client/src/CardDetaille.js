@@ -19,11 +19,11 @@ const CardDetaille = ({ project }) => {
         <Link to={`/Projet/${project.id}`} className="card-project-link">
           <Card.Img className="p-2 myImg" variant="top" src={getImage()} style={{ height: '400px', objectFit: 'cover' }} />
           <Card.Body className="p-0 ms-2 text-start">
-            <Card.Title>{project.title}</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">
+            <Card.Title className='font-tech-title'>{project.title}</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted font-tech-subtitle">
               {project.description}
             </Card.Subtitle>
-            <Card.Text className="mt-2">{project.longDescription}</Card.Text>
+            <Card.Text className="mt-2 font-tech">{project.longDescription}</Card.Text>
             <Card.Subtitle className="mt-2 mb-2 text-muted">
               Technologies:
               <ul>

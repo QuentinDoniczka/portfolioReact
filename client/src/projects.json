@@ -4,13 +4,17 @@
         "title": "React heroku react-bootstrap",
         "image": "portfolio.png",
         "description": "Portfolio de présentation.",
-        "longDescription": "Ce portfolio a été réalisé en React.js avec le framework react-bootstrap. Il est hébergé sur Heroku.",
+        "longDescription": "Ce portfolio a été réalisé en React.js avec le framework react-bootstrap. Il est hébergé sur Heroku. React.js est utilisé pour sa flexibilité et sa performance dans la création d'applications Web à page unique (SPA). React-router-dom est intégré pour gérer la navigation entre les pages sans recharger la page entière, permettant ainsi une expérience utilisateur fluide. Bootstrap et react-bootstrap sont utilisés pour le design et la mise en page, ce qui permet d'avoir un site responsive et attrayant sans effort supplémentaire. Enfin, Heroku est utilisé pour héberger et déployer facilement l'application, offrant une solution cloud pratique pour un déploiement rapide.",
         "languages": [
             "JavaScript",
             "React",
-            "Bootstrap"
-        ]
-    },
+            "Bootstrap",
+            "React-bootstrap"
+        ],
+        "linkGit": "https://portfolio-react-heroku.herokuapp.com/",
+        "linkProject": "",
+        "linkVideo": ""
+    },    
     {
         "id": 2,
         "title": "React nodejs heroku",
@@ -21,17 +25,24 @@
             "JavaScript",
             "React",
             "Node.js"
-        ]
+        ],
+        "linkGit": "https://portfolio-react-heroku.herokuapp.com/",
+        "linkProject": "",
+        "linkVideo": ""
     },
     {
         "id": 1,
         "title": "javacript vanilla PHP",
         "image": "siteRecette.png",
         "description": "Creation et gestion de recette",
-        "longDescription": "Ce projet a été réalisé en JavaScript vanilla et PHP. Il est hébergé sur OVH.",
+        "longDescription": "Ce projet a été réalisé en JavaScript vanilla et PHP, sans utiliser de bibliothèques ou de frameworks supplémentaires. L'objectif était d'apprendre et de comprendre les bases de ces deux langages de programmation pour améliorer la maîtrise des concepts fondamentaux. Le site permet la création, la suppression et l'affichage des recettes, ainsi que la gestion des droits de suppression. Il met en œuvre des interactions avec une base de données pour stocker et gérer les recettes. Ce projet est hébergé sur OVH, un fournisseur de services d'hébergement Web fiable et performant.",
         "languages": [
             "JavaScript",
             "PHP"
-        ]
+        ],
+        "linkGit": "https://portfolio-react-heroku.herokuapp.com/",
+        "linkProject": "",
+        "linkVideo": ""
     }
+    
 ]

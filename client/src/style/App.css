@@ -27,15 +27,19 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-nav{
+
+nav {
   height: 6.5vh;
 }
+
 .haut {
   flex-grow: 1;
 }
+
 .bas {
   flex-grow: 1;
 }
+
 /* Main */
 
 .text-center {
@@ -50,31 +54,37 @@ nav{
 
 
 .container-full-width {
-    width: 100%;
-    max-width: 100%;
-    padding-right: 0;
-    padding-left: 0;
-  }
-  
-  .shadow-box {
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  html, body, #root {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-  }
-  .title {
-    font-size: 22px;
-    font-family: 'Open Sans', sans-serif;
-    color: #4a4a4a;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  .haut {
-    background: linear-gradient(to bottom, #ffffff 0%, #e6e6e6 50%, #cccccc 100%);
-  }
+  width: 100%;
+  max-width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.shadow-box {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.title {
+  font-size: 22px;
+  font-family: 'Open Sans', sans-serif;
+  color: #4a4a4a;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.haut {
+  background: linear-gradient(to bottom, #ffffff 0%, #e6e6e6 50%, #cccccc 100%);
+}
+
 /* CardProject */
 .card {
   width: 20rem;
@@ -83,13 +93,16 @@ nav{
   border-radius: 3px;
   border: 1px solid #83828250;
 }
-.card:hover{
+
+.card:hover {
   transform: scale(1.02);
   transition: transform 0.1s;
 }
+
 .myImg {
   height: 197px;
 }
+
 .card-title {
   font-size: 18px !important;
 }
@@ -97,6 +110,7 @@ nav{
 .card-subtitle {
   font-size: 14px !important;
 }
+
 .card-project-link {
   text-decoration: none;
   color: inherit;
@@ -125,20 +139,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-  /* List */
 
-  .list-item {
-    font-family: 'Georgia', serif;
-    font-size: 18px;
-    color: #333;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-    padding: 8px;
-  }
-    
-    .list-item:hover {
-      transform: scale(1.1);
-      transition: transform 0.1s;
-    }
+/* List */
+
+.list-item {
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  padding: 8px;
+}
+
+.list-item:hover {
+  transform: scale(1.1);
+  transition: transform 0.1s;
+}
 
 /* ProjectDetails.css */
 .project-details-container {
@@ -146,12 +161,16 @@ code {
   flex-direction: column;
   flex-grow: 1;
 }
-.project-details-font{
+
+.project-details-font {
+  display: flex;
+  align-items: center;
   flex-grow: 1;
   font-size: 24px;
   font-family: 'Georgia', serif;
   text-align: justify;
 }
+
 .button-container {
   display: flex;
   justify-content: center;
@@ -159,6 +178,7 @@ code {
   margin-top: auto;
   padding: 1rem 0;
 }
+
 /* MyCv.css */
 .cv-container {
   display: flex;
@@ -176,14 +196,17 @@ iframe {
   top: 0;
   left: 0;
 }
-.cardDetaille:hover{
+
+.cardDetaille:hover {
   transform: scale(1.00);
   transition: transform 0.0s;
-  
+
 }
+
 .cardDetaille a:hover {
   color: #333;
 }
+
 .cardDetaille .card-subtitle {
   font-size: 1.25rem !important;
 }
@@ -191,13 +214,15 @@ iframe {
 .cardDetaille .card-text {
   font-size: .875rem;
 }
-.bio{
+
+.bio {
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-grow: 1;
 }
-.bio h3{
+
+.bio h3 {
   font-size: 2rem;
   font-weight: bold;
   /* pas lato and not open*/
@@ -207,11 +232,41 @@ iframe {
   /* margin top */
   margin-top: 2rem;
 }
-.bio p{
+
+.bio p {
   text-align: justify
 }
+
 .projet-container {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+}
+
+/* cardDetaille */
+
+.font-tech {
+  font-size: 18px!important;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+  text-shadow: none;
+}
+.font-tech-title{
+  font-size: 34px!important;
+  font-weight:bolder!important;
+
+  color: #333;
+  letter-spacing: 0px;
+  text-shadow: none;
+}
+.font-tech-subtitle{
+  font-size: 26px!important;
+  font-weight:bold!important;
+
+  color: #333;
+  letter-spacing: 1px;
+  text-shadow: none;
 }

@@ -25,7 +25,7 @@ const Main = ({ projects }) => {
             </Container>
             <Container className="container-full-width bas">
                 <Col>
-                    <div className="m-3 title">Last project :</div>
+                    <div className="m-3 title">Last projects :</div>
                     <div className="m-2">
                         <BlockProjects projects={projects}/>
                     </div>
