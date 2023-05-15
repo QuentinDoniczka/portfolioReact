@@ -31,8 +31,8 @@ const ProjectDetails = ({ projects }) => {
         </div>
       </Container>
       <Container className="d-flex justify-content-center align-items-center project-links gap-5 p-5">
-          <Button href={project.gitUrl} target="_blank">GitHub</Button>
-          <Button href={project.projectSiteUrl} target="_blank">Site du Projet</Button>
+          <Button href={project.linkGit} target="_blank">GitHub</Button>
+          <Button href={project.linkProject} target="_blank">Site du Projet</Button>
         </Container>
     </Container>
 

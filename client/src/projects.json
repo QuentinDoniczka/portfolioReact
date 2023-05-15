@@ -1,5 +1,20 @@
 [
     {
+        "id": 4,
+        "title": "IA Aprentissage par renforcement; GeometrieDash",
+        "image": "GeometrieDash.png",
+        "description": "Developpement du jeu géométrie dash en C#, puis création d'une IA pour le jeu par renforcement",
+        "longDescription": "Developpement du jeu géométrie dash en C#, puis création d'une IA pour le jeu par renforcement",
+        "languages": [
+            "C#",
+            "BDD"
+        ],
+        "linkGit": "https://github.com/QuentinDoniczka/IA_GeometryDash",
+        "linkProject": "",
+        "linkVideo":""
+
+    },
+    {
         "id": 3,
         "title": "React heroku react-bootstrap",
         "image": "portfolio.png",
@@ -11,12 +26,26 @@
             "Bootstrap",
             "React-bootstrap"
         ],
-        "linkGit": "https://portfolio-react-heroku.herokuapp.com/",
-        "linkProject": "",
-        "linkVideo": ""
+        "linkGit": "https://github.com/QuentinDoniczka/portfolioReact",
+        "linkProject": "https://doniczka-quentin.herokuapp.com/",
+        "linkVideo":""
     },    
     {
         "id": 2,
+        "title": "javacript vanilla PHP",
+        "image": "siteRecette.png",
+        "description": "Creation et gestion de recette",
+        "longDescription": "Ce projet a été réalisé en JavaScript vanilla et PHP, sans utiliser de bibliothèques ou de frameworks supplémentaires. L'objectif était d'apprendre et de comprendre les bases de ces deux langages de programmation pour améliorer la maîtrise des concepts fondamentaux. Le site permet la création, la suppression et l'affichage des recettes, ainsi que la gestion des droits de suppression. Il met en œuvre des interactions avec une base de données pour stocker et gérer les recettes. Ce projet est hébergé sur OVH, un fournisseur de services d'hébergement Web fiable et performant.",
+        "languages": [
+            "JavaScript",
+            "PHP"
+        ],
+        "linkGit": "https://github.com/QuentinDoniczka/recette",
+        "linkProject": "https://doniczkaquentin.ovh/signin/",
+        "linkVideo":""
+    },
+    {
+        "id": 1,
         "title": "React nodejs heroku",
         "image": "sqliteNode.png",
         "description": "Interation BDD front/back",
@@ -26,23 +55,8 @@
             "React",
             "Node.js"
         ],
-        "linkGit": "https://portfolio-react-heroku.herokuapp.com/",
-        "linkProject": "",
-        "linkVideo": ""
-    },
-    {
-        "id": 1,
-        "title": "javacript vanilla PHP",
-        "image": "siteRecette.png",
-        "description": "Creation et gestion de recette",
-        "longDescription": "Ce projet a été réalisé en JavaScript vanilla et PHP, sans utiliser de bibliothèques ou de frameworks supplémentaires. L'objectif était d'apprendre et de comprendre les bases de ces deux langages de programmation pour améliorer la maîtrise des concepts fondamentaux. Le site permet la création, la suppression et l'affichage des recettes, ainsi que la gestion des droits de suppression. Il met en œuvre des interactions avec une base de données pour stocker et gérer les recettes. Ce projet est hébergé sur OVH, un fournisseur de services d'hébergement Web fiable et performant.",
-        "languages": [
-            "JavaScript",
-            "PHP"
-        ],
-        "linkGit": "https://portfolio-react-heroku.herokuapp.com/",
-        "linkProject": "",
-        "linkVideo": ""
+        "linkGit": "https://github.com/QuentinDoniczka/React_Client_Server",
+        "linkProject": "https://intense-lake-63928.herokuapp.com/",
+        "linkVideo":""
     }
-    
 ]
