@@ -7,7 +7,7 @@
         "longDescription": "Developpement du jeu géométrie dash en C#, puis création d'une IA pour le jeu par renforcement",
         "languages": [
             "C#",
-            "BDD"
+            "json"
         ],
         "linkGit": "https://github.com/QuentinDoniczka/IA_GeometryDash",
         "linkProject": "",
