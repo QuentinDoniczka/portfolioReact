@@ -1,17 +1,17 @@
 [
     {
         "id": 4,
-        "title": "IA Aprentissage par renforcement; GeometrieDash",
-        "image": "GeometrieDash.png",
-        "description": "Developpement du jeu géométrie dash en C#, puis création d'une IA pour le jeu par renforcement",
-        "longDescription": "Developpement du jeu géométrie dash en C#, puis création d'une IA pour le jeu par renforcement",
+        "title": "Aprentissage par renforcement",
+        "image": "geometryDash.png",
+        "description": "une IA sur GeometrieDash",
+        "longDescription": "Intelligence Artificielle de Jeu basée sur des Neurones. Ce projet vise à mettre en œuvre une forme d'intelligence artificielle (IA) pour un jeu, basée sur un algorithme de neurones conçu sur mesure. Dans ce système, chaque IA du jeu est modélisée comme une collection de neurones et de détecteurs. Ces éléments sont utilisés par l'IA pour prendre des décisions et interagir avec le monde du jeu. Chaque neurone peut avoir un ou plusieurs détecteurs, et ces détecteurs peuvent être ajoutés ou retirés au fur et à mesure que l'IA évolue et apprend de ses expériences dans le jeu.\n\nAu fil du temps, le 'cerveau' de l'IA change grâce à un processus de modification qui tend à ajouter de nouveaux détecteurs et neurones. Cela entraîne des comportements de plus en plus sophistiqués et diversifiés. Dans certains cas, un neurone ou un détecteur peut être retiré aléatoirement, introduisant ainsi une variabilité supplémentaire et préservant la dynamique de l'évolution.\n\nL'objectif de ce projet est d'explorer les possibilités qu'offre l'IA basée sur des neurones dans le domaine des jeux vidéo, pour comprendre comment une telle approche peut enrichir le gameplay et le niveau de réalisme de l'IA.\n\n",
         "languages": [
             "C#",
             "json"
         ],
         "linkGit": "https://github.com/QuentinDoniczka/IA_GeometryDash",
         "linkProject": "",
-        "linkVideo":""
+        "linkVideo":"https://youtu.be/bIq7YQGVit4"
 
     },
     {
